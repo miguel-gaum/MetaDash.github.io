@@ -1,0 +1,286 @@
+header {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(assets/bgimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin: 0;
+  color: white;
+}
+
+.role {
+  margin: 0;
+  color: white;
+}
+
+.description {
+  /* background: #696d82; */
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  shape-outside: margin-box;
+}
+
+.social-card {
+  border: 1px solid cyan;
+  background: #404040;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social-name {
+  color: azure;
+  margin-top: 3px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.official-web {
+  color: aliceblue;
+  border: 1px solid cyan;
+  background: #404040;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  margin: 0;
+}
+
+.high-lighter {
+  color: aqua;
+  border-radius: 5px;
+}
+
+.color {
+  color: darkturquoise;
+  text-decoration: none;
+}
+
+.color2 {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.color3 {
+  color: cyan;
+  text-decoration: none;
+}
+
+.color4 {
+  color: orange;
+  text-decoration: none;
+}
+
+.header2 {
+  text-align: center;
+  margin: 0;
+  color: aquamarine;
+  margin-bottom: 10px;
+}
+
+.follow {
+  margin: 0;
+  color: white;
+}
+
+.btn {
+  background: transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: 1px solid cyan;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 1ren;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.btn:before {
+  content: '';
+  position: absolute;
+  background: cyan;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover:before {
+  top: 0;
+}
+
+.taskbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #1d1d1d;
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  padding: 10px 20px;
+}
+
+.taskbar-logo {
+  height: 53px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.about {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  margin-right: 40px;
+}
+
+.apps {
+  font-size: small;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.btn-dropdown img {
+  height: 13px;
+}
+
+.apps .dropdown {
+  position: absolute;
+  border-radius: 5px;
+  min-width: 150px;
+  background: #595959;
+  padding: 5px;
+  top: 90px;
+}
+
+.apps:hover .btn-dropdown {
+  border-radius: 4px;
+  padding: 5px;
+  background: #595959;
+}
+
+.apps:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+}
+
+.social-account {
+  padding: 3px;
+  background: #2b2b2b;
+  color: azure;
+  margin: 0px;
+  text-align: center;
+  font-size: 17px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.social-acc {
+  background: #08090f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media {
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  margin-top: 90px;
+  color: white;
+  text-decoration: none;
+}
+
+.media img {
+  border-radius: 16px;
+  background: #2b2b2b;
+  padding: 10px;
+  margin-right: 20px;
+  height: 28px;
+}
+
+.explain {
+  font-size: 15px;
+  margin: 0;
+  color: gray;
+  margin-top: 30px;
+}
+
+.teen-esrb {
+  display: inline-block;
+  text-align: left;
+  color: #efefef;
+  margin-left: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "FF Mark W05",Arial,sans-serif;
+}
+
+.teen-rule img {
+  padding: 10px;
+  height: 90px;
+}
+
+.teen-rule {
+  margin: 20px;
+  padding-right: 10px;
+  border-radius: 10px;
+  background: #2b2b2b;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+-webkit-animation: spin 40s linear infinite;
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+} */
