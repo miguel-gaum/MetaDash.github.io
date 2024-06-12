@@ -1,1 +1,1 @@
-alert('Click (ok) to open this MetaDash.');
+// alert('Click (ok) to open this MetaDash.');
